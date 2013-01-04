@@ -8,7 +8,51 @@
 </head>
 <body>
 
+
+    <div class="navbar navbar-inverse navbar-fixed-top" >
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Twilio Man</a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+              Logged in as <a href="#" class="navbar-link">Username</a>
+            </p>
+            <ul class="nav">
+              <li class="active"><%= link_to 'Extensions', :controller => 'admin/extensions', :action => 'index' %></a></li>
+              <li><%= link_to 'Administrators', :controller => 'admin/administrators', :action => 'index' %></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+     <div class="container-fluid" style="padding-top:60px;">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">QuickLinks</li>
+              <li class="active"><a href="#">Create an extension</a></li>
+              <li><a href="#">Create a new administrator</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
 <%= yield %>
+  </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>© Frog On A Log Studios 2013</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
 
 </body>
 </html>

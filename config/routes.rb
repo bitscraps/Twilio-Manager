@@ -1,4 +1,20 @@
 TwillioMan::Application.routes.draw do
+  get "admin/administrators/index"
+
+  get "admin/administrators/create"
+
+  get "admin/administrators/update"
+
+  get "admin/administrators/destroy"
+
+  get "admin/extensions/index"
+
+  get "admin/extensions/create"
+
+  get "admin/extensions/update"
+
+  get "admin/extensions/destroy"
+
   get "admin/index"
   post "admin/index"
 

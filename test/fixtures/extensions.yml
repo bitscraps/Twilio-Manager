@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  extension: 1
+  name: MyString
+  username: MyString
+  password: 
+  pin: MyString
+
+two:
+  extension: 1
+  name: MyString
+  username: MyString
+  password: 
+  pin: MyString

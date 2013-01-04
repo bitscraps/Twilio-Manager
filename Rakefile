@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Twi2::Application.load_tasks
+TwillioMan::Application.load_tasks
